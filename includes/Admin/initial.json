@@ -1,0 +1,203 @@
+{
+  "home":{
+     "todo":{
+        "jwtInstall":false,
+        "configScreen":false,
+        "settings":false,
+        "build":true
+     }
+  },
+  "screenComponents":{
+     "home":[
+        {
+           "name":"Cateogry Slider",
+           "previewImage":"",
+           "uniqueName":"categorySlider",
+           "config":{
+              "disabled":false,
+              "sticky":true,
+              "stickIndex":0,
+              "visible":false,
+              "data":{
+                 "title":"Categories",
+                 "type":"post"
+              }
+           },
+           "configcomponent":"category-slider",
+           "id":4
+        },
+        {
+           "name":"Image Slider",
+           "previewImage":"",
+           "uniqueName":"imageSlider",
+           "config":{
+              "disabled":false,
+              "visible":false,
+              "data":{
+                 "sliderTitle":"Offers",
+                 "autoScroll":true,
+                 "sliderInterval":1,
+                 "images":[
+                    {
+                       "imageUrl":"https://apperrbuilds.s3.ap-southeast-1.amazonaws.com/assets/banner1.jpeg",
+                       "target":{
+                          "id":1,
+                          "type":"post"
+                       }
+                    },
+                    {
+                       "imageUrl":"https://apperrbuilds.s3.ap-southeast-1.amazonaws.com/assets/banner3.jpeg",
+                       "target":{
+                          "id":1,
+                          "type":"post"
+                       }
+                    },
+                    {
+                       "imageUrl":"https://apperrbuilds.s3.ap-southeast-1.amazonaws.com/assets/banner2.jpeg",
+                       "target":{
+                          "id":2,
+                          "type":"page"
+                       }
+                    }
+                 ]
+              }
+           },
+           "configcomponent":"image-slider",
+           "id":2
+        },
+        {
+           "name":"Post Grid",
+           "previewImage":"",
+           "uniqueName":"postGrid",
+           "config":{
+              "disabled":false,
+              "visible":false,
+              "data":{
+                 "postType":"post",
+                 "maxCols":"1",
+                 "maxRows":3,
+                 "maxPosts":6
+              }
+           },
+           "configcomponent":"post-grid",
+           "id":3,
+           "previewVisible":false
+        },
+        {
+           "name":"WooCommerce Product Grid",
+           "previewImage":"",
+           "uniqueName":"wooProductGrid",
+           "previewVisible":false,
+           "config":{
+              "disabled":false,
+              "visible":false,
+              "requiredWoocommerce":true,
+              "data":{
+                 "title":"",
+                 "maxCols":2,
+                 "maxRows":3,
+                 "maxPosts":6,
+                 "showViewMore":true
+              }
+           },
+           "configcomponent":"woo-product-grid",
+           "id":3,
+           "isPremium":false
+        },
+        {
+           "name":"Empty Space",
+           "previewImage":"",
+           "uniqueName":"emptySpace",
+           "previewVisible":false,
+           "config":{
+              "disabled":false,
+              "visible":false,
+              "data":{
+                 "height":0,
+                 "width":0
+              }
+           },
+           "configcomponent":"empty-space",
+           "isPremium":false,
+           "id":1
+        }
+     ],
+     "postlist":[
+        
+     ],
+     "pagelist":[
+        
+     ],
+     "postsingle":[
+        
+     ],
+     "pagesingle":[
+        
+     ],
+     "shop":[
+        {
+           "name":"Category Slider",
+           "previewImage":"",
+           "uniqueName":"categorySlider",
+           "previewVisible":false,
+           "config":{
+              "disabled":false,
+              "sticky":true,
+              "stickIndex":0,
+              "visible":false,
+              "data":{
+                 "title":"",
+                 "type":"product"
+              }
+           },
+           "configcomponent":"category-slider",
+           "id":4,
+           "isPremium":false
+        }
+     ],
+     "productsingle":[
+        
+     ],
+     "cart":[
+        
+     ],
+     "myprofile":[
+        
+     ],
+     "myorders":[
+        
+     ]
+  },
+  "templates":{
+     "activeTemplate":"apperr-classic",
+     "templateList":[
+        
+     ],
+     "colors":{
+        "accent":{
+           "hex":"#194d33"
+        }
+     }
+  },
+  "settings":{
+     "appTitle":"App Data",
+     "baseUrl":"",
+     "appIcon":"",
+     "splashLogo":"",
+     "wooConsumerKey":"keyhere",
+     "wooConsumerSecret":"secrethere",
+     "checkoutDefaultDescription":"Purchased on",
+     "androidBuildId":"com.apperr.app",
+     "versionName":"1.0",
+     "versionCode":1
+  },
+  "build":{
+     "buildFinished":false,
+     "isSubmitted":false,
+     "version":"1.0",
+     "buildDate":"",
+     "queue":{
+        "files":0
+     }
+  }
+}
